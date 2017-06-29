@@ -9,6 +9,10 @@ body{
     perspective: 6px;
 }
 
+header h1 {
+    text-shadow: 2px 2px #000;
+}
+
 
 .foto-home {
     height: 200px;
