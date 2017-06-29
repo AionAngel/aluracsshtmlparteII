@@ -1,5 +1,18 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    transform-style: preserve-3d;
+    perspective-origin: 50% 150px;
+    perspective: 6px;
+}
+
+
 .foto-home {
     height: 200px;
+    border-radius: 50%;
 }
 .saudacao p {
     font-size: 1.5em;
@@ -123,9 +136,7 @@ main {
     color: #F26;
 }
  
- 
 .palavras-home {
-    perspective: 6px;
     position: absolute;
     top: 0;
     left: 0;
