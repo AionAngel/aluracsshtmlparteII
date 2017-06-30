@@ -11,4 +11,8 @@
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom ;
 }
